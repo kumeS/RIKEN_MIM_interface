@@ -1,0 +1,67 @@
+{
+	"results": [
+		{	
+			"dzi": "http://clst.multimodal.riken.jp/CLST_ViewerData/EMV_025_161114SEM_RatLiverNormal/",
+			"thumbnail": "http://clst.multimodal.riken.jp/CLST_SharedData/025_161114SEM_RatLiverNormal/05_Tiling/025_Tiling_001_288_Thum.png",
+			"id": "DZI_RatLiver001",
+			"desc": "DZI for Rat Liver",
+			"s": "http://metadb.riken.jp/db/clstMultimodalMicrostruct/riken/DeepZoomImageDataset/DZI_NormalRatLiver001"
+		},
+		{	
+			"dzi": "http://clst.multimodal.riken.jp/CLST_ViewerData/EMV_025_161114SEM_RatLiverNormal/",
+			"thumbnail": "http://clst.multimodal.riken.jp/CLST_SharedData/025_161114SEM_RatLiverNormal/05_Tiling/025_Tiling_001_288_Thum.png",
+			"id": "DZI_RatLiver001",
+			"desc": "DZI for Rat Liver",
+			"s": "http://metadb.riken.jp/db/clstMultimodalMicrostruct/riken/DeepZoomImageDataset/DZI_NormalRatLiver002"
+		},
+		{	
+			"dzi": "http://clst.multimodal.riken.jp/CLST_ViewerData/EMV_025_161114SEM_RatLiverNormal/",
+			"thumbnail": "http://clst.multimodal.riken.jp/CLST_SharedData/025_161114SEM_RatLiverNormal/05_Tiling/025_Tiling_001_288_Thum.png",
+			"id": "DZI_RatLiver001",
+			"desc": "DZI for Rat Liver",
+			"s": "http://metadb.riken.jp/db/clstMultimodalMicrostruct/riken/DeepZoomImageDataset/DZI_NormalRatLiver003"
+		},
+		{	
+			"dzi": "http://clst.multimodal.riken.jp/CLST_ViewerData/EMV_025_161114SEM_RatLiverNormal/",
+			"thumbnail": "http://clst.multimodal.riken.jp/CLST_SharedData/025_161114SEM_RatLiverNormal/05_Tiling/025_Tiling_001_288_Thum.png",
+			"id": "DZI_RatLiver001",
+			"desc": "DZI for Rat Liver",
+			"s": "http://metadb.riken.jp/db/clstMultimodalMicrostruct/riken/DeepZoomImageDataset/DZI_NormalRatLiver001"
+		},
+		{	
+			"dzi": "http://clst.multimodal.riken.jp/CLST_ViewerData/EMV_025_161114SEM_RatLiverNormal/",
+			"thumbnail": "http://clst.multimodal.riken.jp/CLST_SharedData/025_161114SEM_RatLiverNormal/05_Tiling/025_Tiling_001_288_Thum.png",
+			"id": "DZI_RatLiver001",
+			"desc": "DZI for Rat Liver",
+			"s": "http://metadb.riken.jp/db/clstMultimodalMicrostruct/riken/DeepZoomImageDataset/DZI_NormalRatLiver001"
+		},
+		{	
+			"dzi": "http://clst.multimodal.riken.jp/CLST_ViewerData/EMV_025_161114SEM_RatLiverNormal/",
+			"thumbnail": "http://clst.multimodal.riken.jp/CLST_SharedData/025_161114SEM_RatLiverNormal/05_Tiling/025_Tiling_001_288_Thum.png",
+			"id": "DZI_RatLiver001",
+			"desc": "DZI for Rat Liver",
+			"s": "http://metadb.riken.jp/db/clstMultimodalMicrostruct/riken/DeepZoomImageDataset/DZI_NormalRatLiver001"
+		},
+		{	
+			"dzi": "http://clst.multimodal.riken.jp/CLST_ViewerData/EMV_025_161114SEM_RatLiverNormal/",
+			"thumbnail": "http://clst.multimodal.riken.jp/CLST_SharedData/025_161114SEM_RatLiverNormal/05_Tiling/025_Tiling_001_288_Thum.png",
+			"id": "DZI_RatLiver001",
+			"desc": "DZI for Rat Liver",
+			"s": "http://metadb.riken.jp/db/clstMultimodalMicrostruct/riken/DeepZoomImageDataset/DZI_NormalRatLiver001"
+		},
+		{	
+			"dzi": "http://clst.multimodal.riken.jp/CLST_ViewerData/EMV_025_161114SEM_RatLiverNormal/",
+			"thumbnail": "http://clst.multimodal.riken.jp/CLST_SharedData/025_161114SEM_RatLiverNormal/05_Tiling/025_Tiling_001_288_Thum.png",
+			"id": "DZI_RatLiver001",
+			"desc": "DZI for Rat Liver",
+			"s": "http://metadb.riken.jp/db/clstMultimodalMicrostruct/riken/DeepZoomImageDataset/DZI_NormalRatLiver001"
+		},
+		{	
+			"dzi": "http://clst.multimodal.riken.jp/CLST_ViewerData/EMV_025_161114SEM_RatLiverNormal/",
+			"thumbnail": "http://clst.multimodal.riken.jp/CLST_SharedData/025_161114SEM_RatLiverNormal/05_Tiling/025_Tiling_001_288_Thum.png",
+			"id": "DZI_RatLiver001",
+			"desc": "DZI for Rat Liver",
+			"s": "http://metadb.riken.jp/db/clstMultimodalMicrostruct/riken/DeepZoomImageDataset/DZI_NormalRatLiver001"
+		}
+	]
+}

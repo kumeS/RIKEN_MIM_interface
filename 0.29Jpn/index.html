@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ja" id="index-html">
+    <head>
+        <meta charset="utf-8">
+        <title>理研微細構造メタデータベース</title>
+        <link rel="stylesheet" href="./css/main.css">
+        <script src="./js/vendor/jquery-3.2.1.min.js"></script>
+        <script src="./js/main.js"></script>
+    </head>
+    <body>
+        <main>
+            <div class="main-image">
+                <div class="side-selected-lang toggle-group">
+                    <!--span class="circle active" data-lang="ja">JA</span-->
+                    <!--span class="circle" data-lang="en">EN</span-->                    
+                </div>
+            	<div class="logo"><h1>RIKEN Microstructural Imaging Metadatabase</h1></div>
+                <div id="inner">
+                    <section class="contents-box about">
+                    	<div class="about-text">
+                        	<h2 class="about">About</h2>
+                        	<h4 lang="ja">理研微細構造画像メタデータベース (理研MIM) は、主に電子顕微鏡（電顕）を用いた網羅的組織微細構造解析（マイクロモルフォミックス）のプラットフォームとして開発され、電顕画像データを生体試料や実験条件などの詳細なメタデータと統合して公開するものである。当プロジェクトでは、ウェブ上のさまざまな生命科学データとの統合のために、Open Microscopy Environment などの標準化された語彙を使用してメタデータを記述しています。このデータベースシステムは、RDF用クエリ言語であるSPARQLのWebインターフェイス、および画像ビューア機能を兼ね備えることで、超微細構造画像のための直感的な表示機能を提供しており、表現型や組織画像に興味がある生物研究者の方だけでなく、簡易な生物学の用語を使用することで、顕微鏡画像分析を実施したい情報系研究者や初学者にもご利用いただるように設計しています。</h4>
+                            <a href="./helppage.html"><h3 class="info more">More information</h3></a>
+                        </div>
+                        <div class="about-image"></div>
+                    </section>
+                    <section class="contents-box uodatelog">
+                        <div class="updatelog-text">
+                        	<h3 class="update">Update log</h3>
+                            <div class="log-data">
+                                <div class="fixing-box">
+                                <!--<div class="log-data-date">
+                                        <div>Date</div>
+                                        <p>Update contents</p>
+                                    </div>-->
+                                    <div class="log-data-date">
+                                        <div>2018.5.18</div>
+                                        <p>マウス組織の電顕画像を新たに追加しました。</p>
+                                    </div>
+                                    <div class="log-data-date">
+                                        <div>2017.10.27</div>
+                                        <p>ヒト由来 K-562 細胞株の電顕画像を新たに追加しました。</p>
+                                    </div>
+                                    <div class="log-data-date">
+                                        <div>2017.09.14</div>
+                                        <p>ラット肝臓、腎臓、脳組織（大脳皮質など）の電顕画像を新たに追加しました。</p>
+                                    </div>
+                                    <div class="log-data-date">
+                                        <div>2017.09.14</div>
+                                        <p>SPARQLで動作する画像管理Webインターフェイスである理研微細構造画像メタデータベースを開設しました。</p>
+                                    </div>
+                                </div>
+                            </div>
+                    	</div>
+                    </section>
+                </div>
+            </div>
+        	<div id="contents-inner">
+                <h3 class="">理研MIM 検索フォーム
+                    <span class="side-selected-colmn four-square" data-view-type="thumbnails">
+                    <span class="pointer-square"></span>
+                    </span>
+                    <span class="side-selected-colmn four-line active" data-view-type="list">
+                        <span class="pointer-line"></span>
+                    </span>
+                </h3>
+                <div id="display-box">
+                    <div class="display-left">
+                    	<div class="icons-box">
+                            <h4>生物種</h4>
+                            <ul class="icons-first toggle-group">
+                            <!-- このあたりがアイコンを指定している -->
+                            <!-- Mus musculus  Rattus norvegicus Homo sapiens -->
+                                <li class="circle">
+                                    <span class="mouse" data-value='http://purl.obolibrary.org/obo/NCBITaxon_10090'>マウス</span>
+                                </li>
+                                <li class="circle">
+                                    <span class="rat" data-value='http://purl.obolibrary.org/obo/NCBITaxon_10116'>ラット</span>
+                                </li>
+                                <li class="circle">
+                                    <span class="homosapiens" data-value='http://purl.obolibrary.org/obo/NCBITaxon_9606'>ヒト由来</span>
+                                </li>
+                            </ul>
+                            <h4>臓器/組織</h4>
+                            <ul class="icons-second toggle-group">
+                                <li class="circle">
+                                    <span class="brain" data-value="http://purl.obolibrary.org/obo/UBERON_0000955">脳組織</span>
+                                </li>
+                                <li class="circle">
+                                    <span class="heart" data-value="http://purl.obolibrary.org/obo/UBERON_0000948">心臓</span>
+                                </li>                                
+                                <li class="circle">
+                                    <span class="liver" data-value="http://purl.obolibrary.org/obo/UBERON_0002107">肝臓</span>
+                                </li>
+                                <li class="circle">
+                                    <span class="kidney" data-value="http://purl.obolibrary.org/obo/UBERON_0002113">腎臓</span>
+                                </li>
+                                <li class="circle">
+                                    <span class="ileum" data-value="http://purl.obolibrary.org/obo/UBERON_0002116">腸組織</span>
+                                </li>
+                                <li class="circle">
+                                    <span class="spleen" data-value="http://purl.obolibrary.org/obo/UBERON_0002106">脾臓</span>
+                                </li>
+                                <li class="circle">
+                                    <span class="pancreas" data-value="http://purl.obolibrary.org/obo/UBERON_0001264">膵臓</span>
+                                </li>
+                                <li class="circle">
+                                    <span class="lung" data-value="http://purl.obolibrary.org/obo/UBERON_0002048">肺</span>
+                                </li>
+                                <li class="circle">
+                                    <span class="skin" data-value="http://purl.obolibrary.org/obo/UBERON_0002199">皮膚</span>
+                                </li>                                
+                                <li class="circle">
+                                    <span class="blood" data-value="http://purl.obolibrary.org/obo/BTO_0000574">血液細胞</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                	<div id="results-container" class="display-right" data-view-type="list">
+                        <table id="results-list" data-view-type="list" class="list-clickable">
+                            <thead>
+                                <tr>
+                                    <th><span lang="ja">サムネイル</span><!--span lang="en">Thumbnail</span--></th>
+                                    <th><span lang="ja">ID</span><!--span lang="en">ID</span--></th>
+                                    <th><span lang="ja">説明</span><!--span lang="en">Description</span--></th>
+                                    <th><span lang="ja">電顕画像ビューアURL</span><!--span lang="en">EM Image Viewer URL</span--></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                        <ul id="results-thumbnails" class="data thumbnails-clickable" data-view-type="thumbnails">
+                        </ul>
+                        <div id="no-results">No results</div>
+                    </div>
+                </div>
+                <!--h3 class="download">Download</h3>
+            	<div id="download-box">
+            		<table>
+            			<thead>
+            				<tr>
+            					<th>Dataset name</th>
+            					<th>Type</th>
+            					<th>URL for Download</th>
+            				</tr>
+            			</thead>
+            			<tbody>
+            			<!--
+            				<tr>
+            					<td>Imaging Data for AI</td>
+            					<td>Control mice</td>
+            					<td class="download-data1"><a href="">…/001.zip</a></td>
+        					</tr>
+        					<tr>
+        						<td>Brain images</td>
+        						<td>Young/Aged mice</td>
+        						<td><a href="">…/002.zip</a></td>
+        					</tr>
+        					<tr>
+        						<td>Brain images</td>
+        						<td>Young/Aged mice</td>
+        						<td><a href="">…/003.zip</a></td>
+        					</tr>
+        					-->
+            			</tbody>
+            		</table>
+            	</div>
+            </div>
+            <footer>
+                <div id="riken-logos">
+                <p>© RIKEN Center for Life Science Technologies & RIKEN Center for Biosystems Dynamics Research. All Rights Reserved. (ver 0.29, Japanese-version)</p>
+                    <!--a href="http://www.riken.jp/en/" target="_blank" class="logos-riken" lang="en"></a-->
+                    <a href="http://www.riken.jp/ja-JP/" target="_blank" class="logos-riken" lang="ja"></a>
+                    <!--a href="http://www.clst.riken.jp/en/" target="_blank" class="logos-clst" lang="en"></a-->
+                    <a href="http://www.clst.riken.jp/ja/" target="_blank" class="logos-clst" lang="ja"></a>
+                    <!--a href="http://metadb.riken.jp/" target="_blank" class="logos-db" lang="en"></a-->
+                    <a href="http://metadb.riken.jp/" target="_blank" class="logos-db" lang="ja"></a>
+                </div>
+                
+            </footer>
+        </main>
+        <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106496963-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', 'UA-106496963-1');
+        </script>
+    </body>
+</html>
