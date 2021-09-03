@@ -32,7 +32,7 @@ function sendQuery(species, organ){
   $.ajax({
     crossDomain: true,
     // SPARQL 検索を呼び出す URL の指定
-    url: ('http://clst.multimodal.riken.jp/sparql?graph=clstMultimodalMicrostruct&query=' +
+    url: ('https://clst.multimodal.riken.jp/sparql?graph=clstMultimodalMicrostruct&query=' +
         'SELECT DISTINCT ?s ?thumbnail ?id ?desc ?dzi ' +
         'FROM <http://metadb.riken.jp/db/clstMultimodalMicrostruct> ' +
         'WHERE {' +
